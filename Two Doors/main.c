@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
         
         printf("Would you like to play again? (y/n): ");
         
-        scanf("%c", &play);
+        scanf(" %c", &play);
     }
     
 
